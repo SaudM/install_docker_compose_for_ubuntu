@@ -11,6 +11,7 @@
 
 2. **使用 `wget` 执行脚本**：
    ```bash
-   bash <(wget -qO - https://raw.githubusercontent.com/SaudM/install_docker_compose_for_ubuntu/main/install_docker.sh)
+sudo bash -c "$(wget -qO - https://raw.githubusercontent.com/SaudM/install_docker_compose_for_ubuntu/main/install_docker.sh)"
+
    ```
 
