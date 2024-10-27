@@ -18,15 +18,19 @@
 
 2. **用curl执行脚本**：
    - 为远程多台服务器安装：
-     ```bash
+   
+```bash
+   
    bash <(curl -s https://raw.githubusercontent.com/SaudM/install_docker_compose_for_ubuntu/main/install_docker_for_ubuntu_in_local.sh) "127.0.0.1,10.56.65.122"
 
-    ```
+```
 
 - 为在指定 IP 地址的服务器上安装（如在 `127.0.0.1` 和 `10.56.65.122` 上）：
-     ```bash
+     
+```bash
    sudo bash -c "$(wget -qO - https://raw.githubusercontent.com/SaudM/install_docker_compose_for_ubuntu/main/install_docker_for_ubuntu_in_local.sh)" "127.0.0.1,10.56.65.122"
-     ```
+ 
+```
      
 
 ### 注意事项
